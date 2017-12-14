@@ -1,1 +1,1 @@
-# api-vimeo-js
+# API Vimeo js
