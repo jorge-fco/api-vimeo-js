@@ -12,14 +12,14 @@ playVimeo.click(function(event) {
 ```
 
 Play
-```
+```js
 Player.on('play', function() {
   console.log('Played the video!');
 });
 ```
 
 Pause
-```
+```js
 Player.on('pause', function() {
   console.log('Pause the video!');
 });
