@@ -6,8 +6,16 @@ var Player = new Vimeo.Player($selector, options);
 
 // Button play for Vimeo
 playVimeo.click(function(event) {
- event.preventDefault();
- Player.play();
+  event.preventDefault();
+  Player.play();
+});
+
+Player.on('play', function() {
+  console.log('Played the video!');
+});
+
+Player.on('pause', function() {
+  console.log('Pause the video!');
 });
 ```
 
