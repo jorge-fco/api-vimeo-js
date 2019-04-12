@@ -11,18 +11,22 @@ playVimeo.click(function(event) {
 });
 ```
 
-Play
+Event Play.
 ```js
 Player.on('play', function() {
   console.log('Played the video!');
 });
 ```
 
-Pause
+Event Pause.
 ```js
 Player.on('pause', function() {
   console.log('Pause the video!');
 });
+```
+
+```js
+
 ```
 
 📌 View repository Javascript — [GitHub](https://github.com/vimeo/player.js)
