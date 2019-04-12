@@ -9,11 +9,17 @@ playVimeo.click(function(event) {
   event.preventDefault();
   Player.play();
 });
+```
 
+Play
+```
 Player.on('play', function() {
   console.log('Played the video!');
 });
+```
 
+Pause
+```
 Player.on('pause', function() {
   console.log('Pause the video!');
 });
