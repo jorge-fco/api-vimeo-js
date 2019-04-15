@@ -11,6 +11,20 @@ playVimeo.click(function(event) {
 });
 ```
 
+Config options embed vimeo
+```js
+// Config options embed vimeo
+var options = {
+	id: $idVimeo,
+	muted: false,
+	title: false,
+	byline: false,
+	portrait: false,
+	playsinline: true,
+	transparent: false
+};
+```
+    
 Event Play.
 ```js
 Player.on('play', function() {
